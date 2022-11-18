@@ -1,4 +1,4 @@
-import { useState } from "react";
+import useState from "react";
 import Header from "./assets/components/Header";
 import Quote from "./assets/components/Quote";
 import "./App.css";
