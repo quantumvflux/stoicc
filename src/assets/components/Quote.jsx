@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./../../App.css";
 
-export const Quote = ({ quote, author, getStoicc }) => {
+const Quote = ({ quote, author, getStoicc }) => {
   useEffect(() => {
     getStoicc();
   }, []);
@@ -13,3 +13,5 @@ export const Quote = ({ quote, author, getStoicc }) => {
     </>
   );
 };
+
+export default Quote;

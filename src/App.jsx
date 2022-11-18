@@ -1,10 +1,9 @@
-import { useEffect } from "react";
 import { useState } from "react";
-import { Header } from "./assets/components/Header";
-import { Quote } from "./assets/components/Quote";
+import Header from "./assets/components/Header";
+import Quote from "./assets/components/Quote";
 import "./App.css";
 
-export const App = () => {
+const App = () => {
   const [author, setAuthor] = useState("");
   const [quote, setQuote] = useState("");
   const getStoicc = () => {
@@ -47,3 +46,5 @@ export const App = () => {
     </div>
   );
 };
+
+export default App;

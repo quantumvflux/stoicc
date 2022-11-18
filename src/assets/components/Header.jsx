@@ -1,6 +1,6 @@
 import stoicc from "./../stoicc.svg";
 
-export const Header = () => {
+const Header = () => {
   return (
     <div>
       <header>
@@ -11,3 +11,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;
